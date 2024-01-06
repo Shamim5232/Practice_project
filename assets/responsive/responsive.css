@@ -3,7 +3,7 @@
     width: 100%;
     padding: 0 20px;
   }
-  section#footer {
+  #footer {
     padding: 40px;
   }
   #banner {
@@ -69,8 +69,17 @@
     margin: 10px 20px;
   }
   /* banner part  */
-  section#banner .content h2 {
+  #banner .content h2 {
     width: 80%;
+  }
+  #footer .wrapper .footer-left {
+    width: 60%;
+  }
+  #footer .wrapper .footer-right {
+    width: 40%;
+  }
+  .footer_box p {
+    width: 100%;
   }
 }
 
