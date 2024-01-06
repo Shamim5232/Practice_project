@@ -20,7 +20,10 @@ body {
   background: #ffff;
   color: #005fac;
 }
-
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* global component end */
 
 /* header part start here  */
@@ -57,3 +60,42 @@ header .hero .content {
   margin: 18px 0;
 }
 /* header part end here  */
+
+/* about part start here  */
+#about {
+  margin: 50px 0;
+}
+#about .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+#about .about_img {
+  width: 50%;
+}
+#about .about_content {
+  width: 50%;
+}
+#about .about_img img {
+  width: 100%;
+}
+.about_content h2 {
+  font-size: 40px;
+  width: 80%;
+}
+.about_content p {
+  font-size: 16px;
+  color: #444343;
+  margin: 15px 0;
+  line-height: 1.5;
+}
+.failur_list li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.failur_list li i {
+  color: #16d887;
+  margin-right: 7px;
+}
