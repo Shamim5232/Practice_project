@@ -1,0 +1,38 @@
+@media (max-width: 1300px) {
+  header .hero {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1024px) {
+  header .hero .content {
+    width: 60%;
+  }
+  .content h1 {
+    font-size: 53px;
+  }
+}
+
+@media (max-width: 768px) {
+  header .hero .content {
+    width: 80%;
+  }
+  .content h1 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  header .hero .content {
+    width: 100%;
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/banner/banner3.png");
+    background-position: center center;
+  }
+}

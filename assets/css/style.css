@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.2s linear all;
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+/* global component start */
+.btn {
+  font-size: 20px;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  background: #ffff;
+  color: #005fac;
+}
+
+/* global component end */
+
+/* header part start here  */
+header {
+  background: url("../images/banner/banner3.png") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: left center;
+  position: relative;
+}
+header .hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1240px;
+  /* border: 1px solid #cccc; */
+  display: flex;
+  justify-content: end;
+}
+header .hero .content {
+  width: 50%;
+  /* border: 1px solid #cccc; */
+  text-align: right;
+}
+.content h1 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.content p {
+  color: #fff;
+  line-height: 1.5;
+  margin: 18px 0;
+}
+/* header part end here  */
