@@ -3,6 +3,9 @@
     width: 100%;
     padding: 0 20px;
   }
+  footer#footer {
+    padding: 40px;
+  }
 }
 @media (max-width: 1024px) {
   header .hero .content {
@@ -100,5 +103,15 @@
   section#banner .content h2 {
     width: 100%;
     font-size: 30px;
+  }
+  /* footer part start  */
+  #footer .wrapper {
+    flex-direction: column;
+  }
+  #footer .wrapper .footer-left {
+    width: 100%;
+  }
+  #footer .wrapper .footer-right {
+    width: 100%;
   }
 }

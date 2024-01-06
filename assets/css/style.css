@@ -157,3 +157,80 @@ section#banner .content h2 {
 section#banner .content button.btn {
   margin-bottom: 20px;
 }
+/* footer part start here  */
+#footer {
+  margin-top: 50px;
+  background: #151414;
+}
+#footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+#footer .wrapper .footer-left {
+  width: 70%;
+}
+#footer .wrapper .footer-right {
+  width: 30%;
+}
+footer#footer {
+  padding: 60px 0;
+}
+
+.footer_box h2 {
+  font-size: 30px;
+  color: #ffff;
+  font-weight: 500;
+}
+
+.footer_box p {
+  font-size: 16px;
+  width: 80%;
+  color: #ccc;
+  margin: 17px 0;
+  line-height: 1.5;
+}
+
+#footer .footer_box .social {
+  display: flex;
+}
+#footer .footer_box .social a {
+  margin: 0 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  gap: 10px;
+  color: #fff;
+  transition: 0.2s;
+}
+#footer .footer_box .social a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.footer-right h2 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+}
+.footer-right form input {
+  display: block;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  background: transparent;
+  border: 1px solid #ccc;
+  margin: 23px 0;
+  border-radius: 8px;
+}
+.footer-right .btn-footer {
+  background-color: #005fac;
+  color: #ffff;
+  cursor: pointer;
+}
