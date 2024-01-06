@@ -158,9 +158,10 @@ section#banner .content button.btn {
   margin-bottom: 20px;
 }
 /* footer part start here  */
-footer {
+#footer {
   margin-top: 50px;
   background: #151414;
+  padding: 60px 0;
 }
 #footer .wrapper {
   display: flex;

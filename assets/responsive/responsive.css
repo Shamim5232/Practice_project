@@ -3,8 +3,11 @@
     width: 100%;
     padding: 0 20px;
   }
-  footer#footer {
+  section#footer {
     padding: 40px;
+  }
+  #banner {
+    margin: 0 20px;
   }
 }
 @media (max-width: 1024px) {
